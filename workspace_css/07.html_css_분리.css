@@ -1,0 +1,9 @@
+h2{
+  color: blueviolet;
+  background-color: rgb(231, 204, 225);
+  font-weight: bold;
+}
+
+div{
+  border: 1px solid blue;
+}

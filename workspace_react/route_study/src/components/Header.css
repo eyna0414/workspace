@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+
+.header{
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.header a{
+  color: white;
+  text-decoration: none;
+}

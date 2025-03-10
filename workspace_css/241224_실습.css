@@ -1,0 +1,118 @@
+/* 전체너비 1200px 
+상단메뉴, 공지사항의 저목은 a태그 사용
+예매하기 버튼에 마우스 올리면 커서 변경 및 배경색 검정*/
+
+.container{
+  width: 1200px;
+}
+
+.intro{
+  background-color: royalblue;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+}
+
+.intro > div{
+  align-self: flex-start;
+}
+
+.intro >div:first-child{
+  font-weight: bold;
+  font-size: 2rem;
+
+  flex-basis: 70%;
+}
+
+.intro > div:nth-child(2){
+  background-color: navy;
+  width: 600px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+}
+
+
+.intro > div > a{
+  color: white;
+}
+
+.div_2 > div:nth-child(2){
+  background-color:  rgb(0, 0, 0, 0.4);
+  text-align: center;
+  width: 400px;
+  padding: 30px;
+  color: white;
+}
+
+.div_2 > div:nth-child(2) >h3{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.div_3{
+  display: flex;
+}
+
+.div_3 > div:first-child{
+  background-color: lightskyblue;
+  padding: 8px;
+}
+
+.div_3 > div:first-child >div{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.div_3 > div:first-child > h4{
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.div_3 > div:nth-child(2){
+  text-align: center;
+}
+.div_3 > div:nth-child(2) > h4{
+  font-size: 1.6rem;
+}
+
+.div_3 > div:nth-child(2) > button{
+  background-color: steelblue;
+  color: white;
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+}
+
+.div_4{
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 200px;
+  
+}
+
+.div_4 >div:first-child{
+  color: gray;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.div_4 > div:nth-child(2){
+  text-align: center;
+}
+
+
+

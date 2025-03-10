@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>폼 요소 - 1</h2>
+  <input type="text" maxlength="5"> <br>
+  <input type="text" placeholder="이름입력"> <br>
+  <input type="text" value="이름입력"> <br>
+  <input type="password"> <br>
+  <input type="number" max="5" min="2" value="3"> <br>
+  <input type="date"> <br>
+  <input type="button" value="버튼!!!" onclick="alert(5)"> <br>
+  <input type="checkbox" checked>독서
+  <input type="checkbox" checked>운동
+  <input type="checkbox">요가 <br>
+  <!-- radio에서 하나의 묶음을 인식시키기 위해 같은 name 속성을 부여함 -->
+  <input type="radio" name="gender">남성
+  <input type="radio" name="gender" checked>여성 <br>
+  <input type="file"> <br>
+  <select>
+    <option>010</option>
+    <option>011</option>
+    <option>012</option>
+  </select>
+  <select>
+    <option>010</option>
+    <option selected>011</option>
+    <option>012</option>
+  </select> <br>
+  <textarea rows="5" cols="40"></textarea> <br>
+  <button type="button">버튼!!!</button> <br><br><br><br>
+
+  <table>
+    <tr>
+      <td>이름</td>
+      <td>
+        <input type="text">
+      </td>
+    </tr>
+    <tr>
+      <td>이메일</td>
+      <td>
+        <input type="text">
+      </td>
+    </tr>
+    <tr>
+      <td>비밀번호</td>
+      <td>
+        <input type="password">
+      </td>
+    </tr>
+    <tr>
+      <td>학과</td>
+      <td>
+        <select>
+          <option>학과를 선택하세요.</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>성별</td>
+      <td>
+        <input type="radio" name="gender" checked>남자
+        <input type="radio" name="gender">여자
+      </td>
+    </tr>
+    <tr>
+      <td>관심사</td>
+      <td>
+        <input type="checkbox">여행
+        <input type="checkbox">게임
+        <input type="checkbox">공연
+        <input type="checkbox">운동
+        <input type="checkbox">기타
+      </td>
+    </tr>
+  </table> <br><br><br>
+
+  <h2>Sign up</h2>
+  Become a member of Andrew's Company, and enjoy a variety of venefits. <br>
+  <table>
+    <tr>
+      <td>Name</td>
+      <td>
+        <input type="text">
+      </td>
+    </tr>
+    <tr>
+      <td>ID</td>
+      <td>
+        <input type="text">
+      </td>
+    </tr>
+    <tr>
+      <td>Password</td>
+      <td>
+        <input type="password">
+      </td>
+    </tr>
+    <tr>
+      <td>Confirm Password</td>
+      <td>
+        <input type="password">
+      </td>
+    </tr>
+    <tr>
+      <td>Mobile</td>
+      <td>
+        <select>
+          <option>010</option>
+        </select>
+        <input type="text">-<input type="text">
+      </td>
+    </tr>
+    <tr>
+      <td>E-mail</td>
+      <td>
+        <input type="email"> @
+        <input type="email">
+        <select>
+          <option>Direct input</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Whether to receive email</td>
+      <td>
+        <input type="checkbox"> Acceptance
+      </td>
+    </tr>
+    <tr>
+      <td>Interest</td>
+      <td>
+        <input type="checkbox"> Movie
+        <input type="checkbox"> theater
+        <input type="checkbox"> Travel
+        <input type="checkbox"> Mountain climbing
+        <input type="checkbox"> Visiting a restaurant
+        <input type="checkbox"> Volunteer
+        <input type="checkbox"> Etc
+      </td>
+    </tr>
+    <tr>
+      <td>Gender</td>
+      <td>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+      </td>
+    </tr>
+    <tr>
+      <td>Path learned</td>
+      <td>
+        <select>
+          <option>Choose</option>
+        </select>
+      </td>
+    </tr>
+  </table> <br>
+  <textarea rows="5" cols="70"></textarea> <br>
+  <input type="button" value="Sign up">
+  <input type="button" value="Cancle">
+</body>
+</html>

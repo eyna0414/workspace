@@ -1,0 +1,95 @@
+.container{
+  padding: 20px;
+  width: 70%;
+  margin: 30px auto;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-shadow: 1px 2px 1px lightgrey
+}
+
+
+.left{
+  border: 1px solid rgb(231, 231, 231);
+  background-color: rgb(231, 231, 231);
+  border-radius: 5px;
+  display: inline-block;
+  width: 50%;
+  margin-right: -6px;
+  
+}
+
+.right{
+  display: inline-block;
+  width: 50%;
+}
+
+.left p{
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.left > div{
+  margin-bottom: 6px;
+  margin-left: 5px;
+}
+
+.left :first-child{
+  margin-top: 6px;
+}
+
+.inpo{
+  padding: 5px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  width: 98%;
+}
+
+button{
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(247, 165, 165);
+  margin: 4px 4px;
+  width: 30%;
+  color: white;
+  margin-left: 5px;
+}
+
+h5{
+  font-weight: bold;
+  margin-left: 9px;
+  margin-bottom: 6px;
+}
+
+i{
+  color: chartreuse;
+  margin-left: 9px;
+}
+
+.right > div{
+  font-size: 0.7rem;
+}
+
+.div-l{
+  color: rgb(101, 197, 5);
+  text-align: center;
+  font-weight: bold;
+}
+
+.div-input{
+  text-align: center;  
+}
+
+.div-input > input{
+  width: 100%;
+  text-align: center;
+  background-color: skyblue;
+  border: 1px solid skyblue;
+  margin-left: 9px;
+  border-radius: 3px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: white;
+  font-size: 0.7rem;
+}
+

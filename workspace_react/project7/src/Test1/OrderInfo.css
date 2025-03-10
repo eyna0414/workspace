@@ -1,0 +1,40 @@
+.container{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.table-list{
+  border: 1px solid white;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table-list tr, .table-list td{
+  border: 1px solid white;
+}
+
+.table-list thead{
+  background-color: royalblue;
+  color: white;
+}
+
+.table-list tbody{
+  background-color: rgb(194, 207, 224);
+}
+.table-list tbody > tr:nth-child(even){
+  background-color: rgb(218, 224, 233);
+}
+
+.table-detail{
+  width: 100%;
+}
+
+.table-detail tbody{
+  background-color: rgb(194, 207, 224);
+}
+
+.table-detail tbody td:nth-child(even){
+  background-color: rgb(218, 224, 233);
+}

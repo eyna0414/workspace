@@ -1,0 +1,24 @@
+div{
+  background-color: lightgray;
+}
+
+.container-t{
+  background-color: black;
+  height: 50px;
+  line-height: 50px;
+}
+.st{
+  color: white;
+  margin-left: 20px;
+}
+
+.it{
+  margin-right: 200px;
+}
+.im{
+  background-color: black;
+  color: white;
+  border: none;
+  text-align: right;
+}
+

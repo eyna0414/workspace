@@ -1,0 +1,28 @@
+.tel{
+  display: flex;
+}
+
+.div_id{
+  display: flex;
+}
+
+.div_email{
+  display: flex;
+}
+
+.container{
+  width: 70%;
+  margin: 0px auto;
+  margin-bottom: 20px;
+}
+
+.content_container{
+  width: 100%;
+  background-color: rgba(222, 174, 241, 0.15);
+  padding: 16px 24px;
+  border-radius: 8px;
+}
+
+.btn_div{
+  text-align: center;
+}

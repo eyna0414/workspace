@@ -1,0 +1,28 @@
+
+.container{
+  width: 500px;
+  border: 1px solid black;
+  height: 400px;
+  
+  
+  display: flex;
+  /* 주축 방향을 지정하고 속성 */
+  /* row(default) : 주축을 가로로 설정 
+      (item들이 가로로 배치) */
+  /* column : 주축을 세로로 설정
+      (item들이 세로로 배치)*/
+  /* flex-direction: column; */
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.item{
+  border: 1px solid green;
+  /* 균등하게  */
+  flex-grow: 1;
+}
+
+/* .d1{flex-grow: 1;}
+.d2{flex-grow: 2;}
+.d3{flex-grow: 1;} */
+

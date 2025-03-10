@@ -1,0 +1,56 @@
+.container{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.table-list{
+  border: 1px solid white;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table-list tr, .table-list td, .table-list th{
+  border: 1px solid white;
+}
+
+.table-list td, .table-list th{
+  padding: 4px;
+}
+
+.table-list thead{
+  background-color: royalblue;
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+.table-list tbody{
+  background-color: rgb(188, 207, 231);
+}
+.table-list tbody > tr:nth-child(even){
+  background-color: rgb(210, 231, 238);
+}
+
+.table-detail{
+  border: 1px solid white;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table-detail td{
+  padding: 4px;
+}
+
+.table-detail tr, .table-detail td{
+  border: 1px solid white;
+}
+
+.table-detail tbody{
+  background-color: rgb(191, 220, 243);
+}
+
+.table-detail tbody td:nth-child(even){
+  background-color: rgb(220, 227, 238);
+}

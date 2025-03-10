@@ -1,0 +1,42 @@
+.item_info_container{
+  border: 1px solid black;
+  display: flex;
+  grid-area: 2rem;
+}
+
+.list_div{
+  border: 1px solid red;
+}
+
+.detail_div{
+  border: 1px solid red;
+}
+
+.list_table{
+  width: 100%;
+  text-align: center;
+}
+
+.list_table thead tr{
+  border-top: 1.5px solid  rgb(160, 86, 190);
+  border-bottom: 1px solid  rgb(160, 86, 190);
+  background-color: #AA60C8;
+  color: white;
+}
+
+.iist_table tbody tr{
+  border-bottom: 1px solid lightgray;
+}
+
+.list_table td{
+  padding: 6px;
+}
+
+.list_table tbody tr:nth-child(even){
+  background-color: rgb(238, 238, 238, 0.5);
+}
+
+.list_table tbody tr:hover{
+  background-color: #eeeeee;
+}
+

@@ -1,0 +1,20 @@
+.join_table{
+  border: 1px solid white;
+  border-collapse: collapse;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.join_table tbody{
+  background-color: rgb(219, 193, 243);
+}
+
+.join_table tr, .join_table td{
+  border: 1px solid white;
+  padding: 8px;
+}
+.join_table tbody > tr:nth-child(even){
+  background-color:rgb(240, 228, 252);
+}

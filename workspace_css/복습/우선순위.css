@@ -1,0 +1,20 @@
+
+/* 
+  1위 - !important 속성이 붙은 것
+  2위 - 인라인 스타일
+  3위 - 아이디 선택자
+  4위 - 클래스 선택자
+  5위 - 태그 선택자
+*/
+
+#ppp{
+  background-color: lightblue;
+}
+
+.d1{
+  background-color: cornflowerblue;
+}
+
+div{
+  background-color: darkslateblue ;
+}

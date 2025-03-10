@@ -1,0 +1,33 @@
+h3{
+  border: 1px solid black;
+  width: 400px;
+  margin: 30px;
+}
+
+span{
+  border: 1px solid black;
+  width: 500px;
+  margin: 30px;
+}
+
+input{
+  width: 300px;
+  margin-top: 50px;
+}
+
+.d1{
+  border: 1px solid black;
+  display: inline-block;
+  width: 300px;
+}
+
+.d2{
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.d3{
+  border: 1px solid black;
+  text-align: center;
+}

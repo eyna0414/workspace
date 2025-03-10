@@ -1,0 +1,91 @@
+body{
+  width: 1800px;
+  margin: 0 auto;
+}
+
+table{
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+tr, td{
+  border: 1px solid lightgray;
+}
+
+
+tr > td:first-child{
+  background-color: rgb(235, 250, 250);
+  padding: 15px 0px 15px 20px;
+  
+}
+
+tr > td:nth-child(2){
+  padding-left: 8px;
+  vertical-align: middle;
+}
+
+.red-span{
+  color: red;
+}
+
+.title{
+  padding: 10px 0px 15px 0px;
+}
+
+.input_ZIP{
+  background-color: white;
+  border-radius: 3px;
+  padding: 4px;
+  width: 90px
+}
+
+select{
+  height: 22px;
+}
+
+input{
+  border: 1px solid lightgray;
+  padding: 5px;
+}
+
+.table2{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.table2-title{
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.short-input{
+  width: 60px;
+}
+
+.shortter-input{
+  width: 40px;
+}
+
+.large-input{
+  width: 300px;
+}
+
+.t-addr{
+  height: 80px;
+}
+
+.font-bold{
+  font-weight: bold;
+}
+
+.lineheight{
+  line-height: 25px;
+}
+
+.lineheight_ZIP{
+  line-height: 32px;
+}

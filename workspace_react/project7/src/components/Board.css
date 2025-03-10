@@ -1,0 +1,36 @@
+.container{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.list-table{
+  border: 1px solid #999999;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.list-table  tr, .list-table td{
+  border: 1px solid #999999;
+}
+
+.list-table td{
+  padding: 8px;
+}
+/* ----------------------------- */
+
+.datail-table{
+  border: 1px solid #999999;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.datail-table tr, .datail-table td{
+  border: 1px solid #999999;
+}
+
+.datail-table td{
+  padding: 8px;
+}

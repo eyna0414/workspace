@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: "Montserrat", sans-serif;
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(231, 209, 243);
+  margin: 20px auto;
+  gap: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+span{
+  font-weight: bold;
+}
+
+.container > div{
+  width: 360px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  box-shadow: 1px 2px 2px lightgray;
+
+  display: flex;
+  gap: 20px;
+
+
+  display: grid;
+}
+
+.container > div >div:nth-child(3){
+  margin-left: 8px;
+}
+
+.container > div >div:nth-child(5){
+  margin-left: 8px;
+}
+
+.container > div > div:nth-child(1){
+  padding: 5px;
+  align-self: end;
+  justify-self: end;
+  font-size: 1.3rem;
+}
+
+.img_h{
+  height: 200px;
+  width: 100%;
+    transition: all 1s;
+
+}
+
+.tatle{
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.price{
+  font-weight: bold;
+  font-size: 2rem;
+  color: rgb(255, 104, 3);
+}
+
+.with{
+  color: gray;
+}
+
+.img_f{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+}
+
+.b{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.last{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.Sandy{
+  font-weight: bold;
+}
+
+button{
+  background-color: rgb(42, 230, 18);
+  color: white;
+  border-radius: 4px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  margin-left: 50px;
+}
+
+
+

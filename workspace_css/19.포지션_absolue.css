@@ -1,0 +1,30 @@
+/* position : absolute - > 절대 위치 */
+
+div{
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 300%;
+}
+
+.d1{
+  position: absolute;
+  background-color: beige;
+  /* 
+  z 방향 설정
+  z-index는 포지션이 기본값일 때는 안됨
+  */
+  z-index: 2;
+}
+
+.d2{
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  z-index: 1;
+
+
+  background-color: chocolate;
+}

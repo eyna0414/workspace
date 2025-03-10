@@ -1,0 +1,17 @@
+.update_table{
+  border: 1px solid white;
+  border-collapse: collapse;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.update_table tr, .update_table td{
+  border: 1px solid white;
+  padding: 8px;
+}
+
+.update_table tbody{
+  background-color: rgb(240, 228, 252);
+}

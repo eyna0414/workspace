@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="인라인_블록.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <!-- 
+    모든 태그는 세 가지의 유형을 가진다
+    1. block 요소 : h1~h6, div
+    2. inline 요소 : span
+    3. inline-block 요소 : input
+  -->
+  <!-- block 요소 
+    width는 화면 전체를 채움
+    wudth 변경 가능
+    같은 줄에 다른 태그는 못 함
+    상하 마진 변경 가능
+  -->
+  react
+  <h3>안녕하세요</h3>
+  react
+
+  <br>
+
+  <!-- 
+    inline
+    width 값을 가질 수 없다.(변경 불가)
+    content의 크기만큼만 자동으로 width가 설정됨
+    상하 마진 변경 불가능
+  -->
+  <span>Hello</span>
+  react
+
+  <br><br>
+
+  <!-- 
+    인라인 블록
+    Width 가능(=block요소)
+    같은 줄에 다른 태그가 올 수 있다(=인라인요소)
+    상하 마진 변경 가능(=block요소)
+
+  -->
+  <input type="text">
+  aaa
+
+  <br><br>
+
+  <div class="d1">첫번째 div</div>
+  <div class="d1">두번째 div</div>
+  
+  <br><br>
+
+  <div class="d2">가로 가운데</div>
+
+  <br><br>
+
+  <div class="d3">
+    <input type="text">
+  </div>
+
+
+
+
+</body>
+</html>

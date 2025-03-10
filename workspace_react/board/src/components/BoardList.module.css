@@ -1,0 +1,41 @@
+.search{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.list_table{
+  border: 1px solid white;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.list_table tr, .list_table td, .list_table th{
+  border: 1px solid white;
+  padding: 8px;
+}
+
+.list_table thead{
+  background-color: rgb(154, 62, 240);
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+.list_table tbody{
+  background-color: rgb(219, 193, 243);
+}
+
+.list_table tbody > tr:nth-child(even){
+  background-color:rgb(240, 228, 252);
+}
+
+.list_table tbody td:nth-child(2){
+  text-align: left;
+}
+
+button{
+  background-color: rgb(220, 199, 240);
+  border-radius: 4px;
+  border: 1px solid blueviolet;
+}

@@ -1,0 +1,42 @@
+.reg_reply_div{
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.reg_reply_div > input:nth-last-child(1){
+  width: 15%;
+}
+
+.reg_reply_div > input:nth-last-child(2){
+  width: 70%;
+}
+
+.reg_reply_div > button{
+  width: 15%;
+}
+
+.reply{
+  border-bottom: 1px solid #dddddd;
+}
+
+.reply >div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0px;
+}
+
+.reply > div > p {
+  width: 85%;
+}
+
+.reply > div > button {
+  width: 15%;
+}
+
+.reply > span:nth-child(2){
+  margin-left: 20px;
+  color: #bbbbbb;
+}

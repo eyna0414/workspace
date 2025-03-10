@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 해당 파일에 모든 쿼리문을 작성 -->
+<!-- namespace에는 xml파일과 연결할 Mapper interface 파일명을 패키지를 포함하여 적어주세요 -->
+<mapper namespace="com.green.book_shop.book.mapper.UserMapper">
+
+  <!-- 회원가입쿼리 -->
+  <insert id="join">
+    INSERT SHOP_USER (
+    USER_ID
+    , USER_PW
+    , USER_NAME
+    , USER_EMAIL
+    , USER_TEL
+    ) VALUES(
+    #{userId}
+    , #{userPw}
+    , #{userName}
+    , #{userEmail}
+    , #{userTel}
+    )
+  </insert>
+
+  <!-- 회원가입 중복 확인 -->
+  <select id="isUsableUser" resultType="UserDTO">
+    SELECT USER_ID
+          ,USER_TEL
+    FROM SHOP_USER
+    WHERE USER_ID = #{userId}
+          , USER_TEL = #{userTel}
+  </select>
+
+
+  <!-- 자바로 가지고 올 -->
+  <resultMap id="login" type="UserDTO">
+    <id      column="USER_ID" property="userId"/>
+    <result  column="USER_ID" property="userPw"/>
+  </resultMap>
+
+  <!-- 로그인 쿼리 -->
+  <select id="getLogin" resultMap="login">
+    SELECT USER_ID
+          , USER_PW
+    FROM SHOP_USER
+    WHERE USER_ID = #{userId}
+          , USER_PW = #{userPw}
+  </select>
+
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

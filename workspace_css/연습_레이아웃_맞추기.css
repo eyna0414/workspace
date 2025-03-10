@@ -1,0 +1,46 @@
+
+table{
+  text-align: center;
+  width: 500px;
+  margin: 10px auto;
+}
+
+thead{
+  color: white;
+  background-color: rgb(87, 129, 207);
+}
+
+tbody{
+  background-color: rgb(199, 214, 230);
+}
+
+tr, td{
+  border: 1px solid white;
+}
+
+input{
+  background-color: rgb(87, 129, 207);
+  color: white;
+  border-radius: 6px;
+  width: 70px;
+  border: 1px;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+.a{
+  text-align: right;
+}
+
+.b{
+  color: red;
+}
+
+.button{
+  text-align: right;
+}
+
+

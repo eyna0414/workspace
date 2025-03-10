@@ -1,0 +1,57 @@
+.container{
+  width: 800px;
+  height: 800px;
+  background-color: rgb(231, 209, 243);
+  margin: 20px auto;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.container >div{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.container > div >div{
+  width: 400px;
+  height: 100px;
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+}
+
+.container > div >div:hover{
+  scale: 1.1;
+}
+
+.container > div > div > div{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.container > div > div > div:first-child{
+  width: 25%;
+}
+
+
+img{
+  width: 60px;
+  height: 90px;
+  border-radius: 100%;
+  margin-left: 10px;
+}
+
+.name > div:first-child{
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}

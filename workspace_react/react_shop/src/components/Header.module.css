@@ -1,0 +1,25 @@
+.header{
+  background-color: lightblue;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+
+.menu{
+  display: flex;
+  color: white;
+  font-size: 2rem;
+  gap: 2rem;
+}
+
+.menu a{
+  text-decoration: none;
+  color: white;
+}
+
+/* active 클래스가 적용된 a태그 */
+a.active{
+  color: red;
+}

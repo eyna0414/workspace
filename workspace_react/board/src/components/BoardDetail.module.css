@@ -1,0 +1,87 @@
+.detail_table{
+  border: 1px solid white;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.detail_table tr, .detail_table td{
+  border: 1px solid white;
+}
+
+.detail_table td{
+  padding: 8px;
+}
+
+.detail_table tbody{
+  background-color:  rgb(240, 228, 252);
+}
+
+.detail_table tbody > tr:first-child > td:nth-child(odd){
+  background-color: rgb(219, 193, 243);
+}
+
+.detail_table td:first-child{
+  background-color: rgb(219, 193, 243);
+  text-align: center;
+}
+
+.detail_table tr:first-child{
+  text-align: center;
+} 
+
+.btn_div{
+  text-align: center;
+  margin: 12px 0px;
+
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+
+
+
+.reg_reply_div{
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.reg_reply_div > input:nth-last-child(1){
+  width: 15%;
+}
+
+.reg_reply_div > input:nth-last-child(2){
+  width: 70%;
+}
+
+.reg_reply_div > button{
+  width: 15%;
+}
+
+.reply{
+  border-bottom: 1px solid #dddddd;
+}
+
+.reply >div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0px;
+}
+
+.reply > div > p {
+  width: 85%;
+}
+
+.reply > div > button {
+  width: 15%;
+}
+
+.reply > span:nth-child(2){
+  margin-left: 20px;
+  color: #bbbbbb;
+}
