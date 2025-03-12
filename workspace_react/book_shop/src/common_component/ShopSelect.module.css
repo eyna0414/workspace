@@ -1,9 +1,0 @@
-.select{
-  outline: 1px solid purple;
-  border: none;
-  border-radius: 4px;
-}
-
-.select:focus{
-  outline: 1.5px solid rgba(104, 8, 160, 0.8);
-}
