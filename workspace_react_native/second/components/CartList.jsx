@@ -1,10 +1,11 @@
-import { Image, StyleSheet, Text, TextInput, View } from 'react-native'
+import { Image, Pressable, StyleSheet, Text, TextInput, View } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import icon_edit from '../assets/icons/edit.png'
 import icon_delete from '../assets/icons/delete.png'
 import { COLOR } from '../constants/colors'
 import { ICON } from '../constants/icons'
 import { data } from '../data/data'
+import Tesk from './Tesk'
 
 const CartList = () => {
 
@@ -26,14 +27,12 @@ const CartList = () => {
       {
         cartList.map((cart, i) => {
           return(
-            <View key={i} style={styles.container}>
-              <Image source={ICON.ICON_EDIT}/>
-              <Text style={styles.title}>{cart.item}</Text>
-              <Image 
-                source={ICON.ICON_DELETE}
-                style={styles.img}
-              />
-            </View>
+            <Tesk 
+              key={i} 
+              cart={cart} 
+              cartList={cartList} 
+              setCartList={setCartList}
+            />
           )
         })
       }
@@ -77,23 +76,6 @@ const CartList = () => {
 export default CartList
 
 const styles = StyleSheet.create({
-  container:{
-    borderWidth : 1,
-    margin : 12,
-    backgroundColor : COLOR.BTN_BACKGROUND_COLOR,
-    borderRadius: 4,
-    flexDirection : 'row',
-    alignItems: 'center',
-    gap : 8
-  },
-  title: {
-    flex: 1,
-    fontSize: 18
-  },
-  img:{
-    width: 20,
-    height: 20
-  },
   input:{
     borderWidth : 1,
     borderColor: COLOR.BTN_BACKGROUND_ACTIVE_COLOR
