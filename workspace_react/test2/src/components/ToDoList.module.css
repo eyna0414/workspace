@@ -1,0 +1,13 @@
+.container{
+  width: 80%;
+  text-align: center;
+}
+.insertContainer{
+  width: 100%;
+}
+
+.secondContainer{
+  border: 1px solid black;
+  width: 100%;
+  background-color: rgb(175, 219, 247)
+}
