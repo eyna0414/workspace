@@ -1,13 +1,84 @@
 .container{
-  width: 80%;
+  width: 350px;
+  margin:0 auto; 
+}
+.firstContainer{
   text-align: center;
 }
+
 .insertContainer{
   width: 100%;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  margin-bottom: 5px;
+}
+
+.insertContainer > input{
+  width: 77%;
+  height: 20px;
+}
+
+.insertContainer > button {
+  width: 20%;
 }
 
 .secondContainer{
   border: 1px solid black;
   width: 100%;
-  background-color: rgb(175, 219, 247)
+  background-color: rgb(175, 219, 247);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px 0px;
+  gap: 10px;
+}
+
+.listContainer{
+  background-color: rgb(217, 237, 250);
+  width: 95%;
+  height: 40px;
+  margin:0 auto;
+  line-height : 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 5px;
+}
+
+.listContainer > input {
+  width: 70%;
+  height: 20px;
+  background-color: rgb(217, 237, 250);
+  border: none;
+}
+
+.lastContainer{
+  background-color: rgb(217, 237, 250);
+  height: 40px;
+  line-height : 40px;
+  width: 95%;
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 6px;
+}
+
+.lastContainer > input{
+  width: 55%;
+  height: 20px;
+}
+
+.btn{
+  background-color: rgb(175, 219, 247);
+  border: 1px solid rgb(92, 142, 173);
+  color: white;
+  padding: 4px;
+  width: 60px;
+  border-radius: 8px;
+}
+
+img{
+  height: 25px;
 }
