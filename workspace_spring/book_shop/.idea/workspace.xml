@@ -5,58 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="573b18f2-9827-403f-aee1-f81f77617de6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_react/book_shop/eslint.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_react/book_shop/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_react/book_shop/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/apis/userApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_react/book_shop/src/apis/userApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/common_component/ShopButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_react/book_shop/src/common_component/ShopButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/common_component/ShopButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_react/book_shop/src/common_component/ShopButton.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/common_component/ShopInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_react/book_shop/src/common_component/ShopInput.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/common_component/ShopInput.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_react/book_shop/src/common_component/ShopInput.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/common_component/ShopSelect.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_react/book_shop/src/common_component/ShopSelect.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/common_component/ShopSelect.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_react/book_shop/src/common_component/ShopSelect.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/components/AdminLayOut.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_react/book_shop/src/components/AdminLayOut.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/components/CateManage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_react/book_shop/src/components/CateManage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/components/ItemForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_react/book_shop/src/components/ItemForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/components/Join.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_react/book_shop/src/components/Join.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/components/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_react/book_shop/src/components/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/components/Test.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/components/UserHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_react/book_shop/src/components/UserHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/components/UserHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_react/book_shop/src/components/UserHeader.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/components/UserJoin.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/components/UserJoin.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/components/UserLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_react/book_shop/src/components/UserLayout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_react/book_shop/src/main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/practice/Axios흐름.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_react/book_shop/src/practice/State변경함수흐름.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/book_shop/BookShopApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/book_shop/book/controller/BookCategoryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/book_shop/book/controller/BookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/book_shop/book/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/book_shop/book/dto/BookCategoryDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/book_shop/book/dto/BookDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/book_shop/book/dto/UserDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/book_shop/book/mapper/BookMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/book_shop/book/mapper/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/book_shop/book/service/BookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/book_shop/book/service/BookServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/book_shop/book/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/book_shop/book/service/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/green/book_shop/test/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4jdbc.log4j2.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/book-mapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/user-mapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/green/book_shop/BookShopApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
