@@ -1,49 +1,77 @@
-import { StyleSheet, Text, TextInput, View } from 'react-native'
-import React from 'react'
-import MyTextInput from './MyTextInput'
-import MyButton from './MyButton'
-import { COLOR } from '../constants/colors'
+import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
+import React, { useState } from 'react';
+import { data } from '../data/todoList';
+import Task from './Task';
+import { COLOR } from '../constants/colors';
 
 const ToDoList = () => {
+  const [toDoList, setToDoList] = useState(data);
+  
+  //input 데이터에 저장할 state 변수
+  const [newList, setNewList] = useState('');
+
+  const addTask = () => {
+    if (newList.trim() === '') return; 
+
+    const maxId = toDoList.length > 0 ? Math.max(...toDoList.map(e => e.id)) : 0;
+
+    const newData = {
+      id: maxId + 1,
+      text: newList.trim(),
+    };
+
+    setToDoList([...toDoList, newData]);
+    setNewList('');
+  };
+
   return (
     <View style={styles.container}>
-      <View>
-        <Text>To Do List</Text>
-      </View>
+      <Text style={styles.title}>To Do List</Text>
 
       <View style={styles.insertContainer}>
-        <TextInput 
+        <TextInput
           style={styles.input}
-        />
-
-        <MyButton 
-          title='등록'
+          placeholder="+ Add a task"
+          value={newList}
+          onChangeText={setNewList}
+          onSubmitEditing={addTask}
         />
       </View>
       
       <View style={styles.listContainer}>
-        
+        {toDoList.map((list) => (
+          <Task key={list.id} list={list} toDoList={toDoList} setToDoList={setToDoList} />
+        ))}
       </View>
-    </View>
-  )
-}
 
-export default ToDoList
+
+    </View>
+  );
+};
+
+export default ToDoList;
 
 const styles = StyleSheet.create({
   container: {
-    width: '80%'
+    padding: 20,
+  },
+  title: {
+    fontSize: 30,
+    fontWeight: 'bold',
+    marginBottom: 10,
   },
   input: {
     borderWidth: 1,
-    width : '80%'
+    padding: 8,
+    width: '100%',
   },
   insertContainer: {
-    flexDirection: "row"
+    flexDirection: "row",
+    marginBottom: 10,
   },
-  listContainer: {
-    backgroundColor: COLOR.BUTTON_COLOR
+  listContainer:{
+    backgroundColor: COLOR.BACKGROUND_COLOR,
+    padding: 8
   }
-
-
-})
+  
+});

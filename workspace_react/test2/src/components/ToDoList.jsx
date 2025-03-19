@@ -92,7 +92,7 @@ const ToDoList = () => {
       <div className={styles.secondContainer}>
         {
           toDoList.map((e) => (
-           <div key={e.id} className={styles.listContainer}>
+          <div key={e.id} className={styles.listContainer}>
             {
               isEditing === e.id ? 
                 // 수정 상태일 때

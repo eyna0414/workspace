@@ -48,7 +48,6 @@ const ToDoList = () => {
   //input 태그에 입력한 데이터
   const [newText, setNewText] = useState('');
 
- 
 
   //수정
   const updatelist = (text) => {
