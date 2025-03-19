@@ -46,9 +46,8 @@
   gap: 5px;
 }
 
-.listContainer > input {
+.listContainer > span {
   width: 70%;
-  height: 20px;
   background-color: rgb(217, 237, 250);
   border: none;
 }
