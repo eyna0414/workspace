@@ -4,10 +4,12 @@ import { ICON } from '../constants/icons';
 import { COLOR } from '../constants/colors';
 
 const Task = ({ list, toDoList, setToDoList }) => {
+  //수정 상태 여부
   const [isEditing, setIsEditing] = useState(false);
+  //input 태그에 입력한 데이터
   const [newText, setNewText] = useState('');
 
-  // list 변경될 때  업데이트
+  // list 변경될 때도 리렌더링
   useEffect(() => {
     setNewText(list.text);
   }, [list]);
@@ -15,14 +17,9 @@ const Task = ({ list, toDoList, setToDoList }) => {
   // 할 일 목록 수정
   const handleList = () => {
     const copyList = [...toDoList];
-    const findIndex = copyList.findIndex(e => e.id === list.id);
-    
-    if (findIndex !== -1) {
-      copyList[findIndex].text = newText;
-      setToDoList(copyList);
-    }
-
-    setIsEditing(false);
+    const findlist = copyList.find(e => {return e.id === list.id});
+    findlist.text = newText;
+    setToDoList(copyList);
   };
 
   // 할 일 목록 삭제
@@ -32,34 +29,36 @@ const Task = ({ list, toDoList, setToDoList }) => {
   };
 
   return (
-    <View style={styles.listContainer}>
-      {isEditing ? (
-        <TextInput
-          style={styles.input}
-          autoFocus
-          onBlur={() => {
-            setIsEditing(false);
-            setNewText(list.text);
-          }}
-          onChangeText={text => setNewText(text)}
-          value={newText}
-          onSubmitEditing={handleList}
-        />
-      ) : (
+    <View style={styles.lists}>
+      {
+        isEditing 
+        ? 
+        <>
+          <TextInput
+            style={styles.input}
+            autoFocus = {true}
+            onBlur={() => {
+              setIsEditing(false);
+              setNewText(list.text);
+            }}
+            onChangeText={text => setNewText(text)}
+            value={newText}
+            onSubmitEditing={() => {handleList()}}
+          />
+        </>
+        : 
         <View style={styles.list}>
           <Text style={styles.taskText}>{list.text}</Text>
 
-          {/* 수정 버튼 */}
           <Pressable onPress={() => setIsEditing(true)}>
             <Image source={ICON.ICON_EDIT} style={styles.img} />
           </Pressable>
 
-          {/* 삭제 버튼 */}
           <Pressable onPress={handleDelete}>
             <Image source={ICON.ICON_DELETE} style={styles.img} />
           </Pressable>
         </View>
-      )}
+      }
     </View>
   );
 };
@@ -67,10 +66,9 @@ const Task = ({ list, toDoList, setToDoList }) => {
 export default Task;
 
 const styles = StyleSheet.create({
-  listContainer: {
+  lists: {
     backgroundColor: COLOR.BACKGROUND_ACTIVE_COLOR,
     padding: 10,
-    marginBottom: 8,
   },
   list: {
     flexDirection: 'row',

@@ -11,13 +11,12 @@ const ToDoList = () => {
   const [newList, setNewList] = useState('');
 
   const addTask = () => {
-    if (newList.trim() === '') return; 
+    if (newList === '') return; 
 
     const maxId = toDoList.length > 0 ? Math.max(...toDoList.map(e => e.id)) : 0;
-
     const newData = {
       id: maxId + 1,
-      text: newList.trim(),
+      text: newList,
     };
 
     setToDoList([...toDoList, newData]);
@@ -71,7 +70,9 @@ const styles = StyleSheet.create({
   },
   listContainer:{
     backgroundColor: COLOR.BACKGROUND_COLOR,
-    padding: 8
+    padding: 10,
+    flexDirection: 'column',
+    gap: 10
   }
   
 });

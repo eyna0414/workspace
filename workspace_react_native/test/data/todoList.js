@@ -10,6 +10,6 @@ export const data = [
   },
   {
     id : 3,
-    text : '오늘 저녁엔 쉬기기',
+    text : '오늘 저녁엔 쉬기',
   }
 ]

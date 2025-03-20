@@ -19,12 +19,16 @@
   height: 20px;
 }
 
+.insertContainer > input::placeholder{
+  color: lightgray;
+}
+
 .insertContainer > button {
   width: 20%;
 }
 
 .secondContainer{
-  border: 1px solid black;
+  border: 1px solid rgb(92, 142, 173);
   width: 100%;
   background-color: rgb(175, 219, 247);
   display: flex;
@@ -44,6 +48,7 @@
   justify-content: center;
   align-items: center; 
   gap: 5px;
+  border-radius: 6px;
 }
 
 .listContainer > span {
@@ -73,7 +78,7 @@
   background-color: rgb(175, 219, 247);
   border: 1px solid rgb(92, 142, 173);
   color: white;
-  padding: 4px;
+  padding: 6px;
   width: 60px;
   border-radius: 8px;
 }
