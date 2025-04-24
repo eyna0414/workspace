@@ -56,7 +56,7 @@ public class JwtUtil {
    * @param expirationTime 만료날짜및시간 1000 -> 1초
    * @return 위 정보가 담긴 토큰을 리턴
    */
-  public String createJwt(String username, String role, long expirationTime) {
+  public String createJwt(String username, String role, long expirationTime, String clientType) {
     return Jwts.builder()
             .signWith(secretKey, Jwts.SIG.HS512)    //암호화 방식지정. 비밀키 & HS512 알고리즘으로 토큰 암호화 진행
             .header()
@@ -67,7 +67,9 @@ public class JwtUtil {
               .subject(username)      //첫 번째 매개변수 유저이름(회원아이디)
               .claim("role", role)    //두 번째 매개변수 권한
             .issuedAt(new Date(System.currentTimeMillis()))                      //토큰 발행 시간
-            .expiration(new Date(System.currentTimeMillis() + expirationTime))   //토큰 만료 시간
+            //.expiration(new Date(System.currentTimeMillis() + expirationTime))   //토큰 만료 시간
+            // 웹일때만 토큰 만료 시간
+            .expiration(clientType.equals("web") ? new Date(System.currentTimeMillis() + expirationTime) : null)
             .compact();
 
   }
