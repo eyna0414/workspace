@@ -22,7 +22,6 @@ const TabLayout = () => {
 
   return (
     <View style={styles.container}>
-      <Header/> 
       <View style={styles.tabArea}>
         <Tabs screenOptions={{
           headerShown:false,
